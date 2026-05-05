@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "TRIAL BOT",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -87,15 +87,15 @@ export const botConfig = {
   // IMPORTANT: This is the SINGLE SOURCE OF TRUTH for all bot colors
   embeds: {
     colors: {
-      // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      // Main brand colors. Primary: Neon Blue. Secondary: Ruby Red
+      primary: "#1F51FF", 
+      secondary: "#E0115F", 
 
-      // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      // Standard status colors for success(Grass Green)/error(Crimson Red)/warning(Crimson Red)/info messages (Neon Blue, PColor). 
+      success: "#7CFC00", 
+      error: "#DC143C", 
+      warning: "#DC143C", 
+      info: "#1F51FF", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -116,27 +116,27 @@ export const botConfig = {
         ended: "#ED4245",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#7CFC00",
+        claimed: "#FFFAA0",
+        closed: "#DC143C",
+        pending: "#1F51FF",
       },
       economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      birthday: "#DE3163",
+      moderation: "#1F51FF",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#FFE6EA",
+        low: "#FF8A9D",
+        medium: "#FF5C77",
+        high: "#FF2E51",
+        urgent: "#DC143C",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Warp Zone Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -144,7 +144,7 @@ export const botConfig = {
     thumbnail: null,
     author: {
       // Optional default embed author block.
-      name: null,
+      name: Yve,
       icon: null,
       url: null,
     },
